@@ -7,6 +7,4 @@ class Solution:
             fst = min(limit,n-i)
             if last <= fst:
                 count += (fst-last+1)
-        return count
-
-        
+        return coun
